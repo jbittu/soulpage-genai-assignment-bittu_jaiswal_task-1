@@ -50,7 +50,7 @@ This application gathers real-time company information—including news & stock 
 ##  Project Structure
 
 ```bash
-company_intel_agentic_system/
+soulpage-genai-assignment-bittu_jaiswal_task-1/
 │── agents/
 │   ├── data_collector.py
 │   └── analyst.py
