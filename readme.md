@@ -15,11 +15,12 @@ This application gathers real-time company information—including news & stock 
 
 
 ###  Streamlit Web Interface
-- Enter company name or ticker (e.g., *Google*, *AAPL*)
-- Fetch **live news + stock data**
-- Get **AI-generated insights**
-- Visualize conversation history & decisions
-- Simple intuitive interface for research / finance use-cases
+- Enter **company name / ticker symbol (AAPL, GOOG, TATASTEEL, etc.)**
+- Fetch **Live Market News + Stock Trend Charts**
+- Generate **AI Reasoning Outputs**
+- Conversation memory retained across queries
+- Useful for **Analysts, Investors, Businesses & Research teams**
+
 
 
 ##  System Architecture
@@ -73,7 +74,7 @@ company_intel_agentic_system/
 ###  Clone the repository
 
 ```bash
-git clone https://github.com/your-username/company-intel-agentic-system.git
+git clone https://github.com/jbittu/soulpage-genai-assignment-bittu_jaiswal_task-1.git
 cd company-intel-agentic-system
 ```
 
@@ -127,16 +128,36 @@ python test_orchestrator.py  # Full agent pipeline
 streamlit run streamlit_app.py
 ```
 
-Then visit:  
- **http://localhost:8501**
+## Example Usage
+
+### Query Example
+Input:
+```
+Company: Microsoft (MSFT)
+```
+
+✔ Retrieves latest 10 global news headlines  
+✔ Fetches 7-day historical stock closing prices  
+✔ AI generates analysis:
+
+```
+ Stock Trend → Upward momentum detected last 4 days  
+ News Sentiment → Mostly positive  
+ Risks → AI Divestment concerns, antitrust investigations in EU  
+ Investment Decision → Moderate Buy
+```
 
 
- ##  Output Preview
 
-✔ Real-time company financial news  
-✔ 7-Day stock trends (with price movement)  
-✔ AI-generated summary + investment risk assessment  
-✔ Persisting conversation memory  
+## Final Output Preview
+
+| Output Section | Description |
+|---------------|-------------|
+|  Live Market News | Company headlines + timestamps + sources |
+|  Stock Trend Plot | Closing price curve using Alpha Vantage |
+|  Strategic Insights | Market positioning, opportunities |
+|  Risk Assessment | Financial, legal, geopolitical threats |
+|  Recommendation | Buy / Hold / Sell (LLM supported reasoning) |
 
 ##  Credits
 
