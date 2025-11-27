@@ -75,7 +75,7 @@ company_intel_agentic_system/
 
 ```bash
 git clone https://github.com/jbittu/soulpage-genai-assignment-bittu_jaiswal_task-1.git
-cd company-intel-agentic-system
+cd soulpage-genai-assignment-bittu_jaiswal_task-1
 ```
 
 ###  Create virtual environment
